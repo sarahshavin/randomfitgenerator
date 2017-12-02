@@ -1,15 +1,14 @@
 import random
 
 '''
-People come up to you and say, "I have the next big thing... it's X for Y"
+People wake up every morning and with no idea what to wear.
 
-Examples include:
-- Uber for dog walkers
-- Yelp for bonsai growers
-- Snapchat for babies
+They want to dress interesting, yet normal:
+- Funky socks?
+- Distracting earrings?
+- A graphic tee under my professional blazer?
 
-This generation script helps you determine what the next big thing
-is really going to be.
+This generation script challenges you to dress weirder.
 '''
 
 # Open files
@@ -20,6 +19,6 @@ Yfile = open('Y.txt')
 X = [line.strip() for line in Xfile]
 Y = [line.strip() for line in Yfile]
 
-s = "The next big thing is: "
-s = s + random.choice(X) + " for " + random.choice(Y)
+s = "Todays challenge: "
+s = s + random.choice(X) + " and " + random.choice(Y)
 print (s)
