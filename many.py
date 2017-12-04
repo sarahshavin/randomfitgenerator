@@ -12,7 +12,7 @@ X = [line.strip() for line in Xfile]
 Y = [line.strip() for line in Yfile]
 
 for num in range(0,times):
-    s = "Todays challenge is: "
+    s = "Todays challenge: "
     s = s + random.choice(X) + " and " + random.choice(Y)
     print (s)
 

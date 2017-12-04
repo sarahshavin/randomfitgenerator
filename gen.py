@@ -3,7 +3,7 @@ import random
 '''
 People wake up every morning and with no idea what to wear.
 
-They want to dress interesting, yet normal:
+They want to dress well, yet different:
 - Funky socks?
 - Distracting earrings?
 - A graphic tee under my professional blazer?
