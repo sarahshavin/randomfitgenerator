@@ -31,7 +31,7 @@ def main():
   X = [line.strip() for line in Xfile]
   Y = [line.strip() for line in Yfile]
 
-  tweet = "Todays challenge is: "
+  tweet = "Todays challenge: "
   tweet = tweet + random.choice(X) + " and " + random.choice(Y)
 
   status = api.update_status(status=tweet)
